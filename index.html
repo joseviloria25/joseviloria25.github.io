@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css    ">
+
+    <title>Amortización y Capitalización</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', serif;
+            line-height: 2;
+            background-color: #a4d1e6; /* Azul claro suave */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header style="background-image: url('tu-imagen.jpg'); background-size: cover; background-position: center; padding: 50px 0; text-align: center; color: rgb(255, 255, 255); height: 300px;">
+        <h1 style="font-family: 'Arial', sans-serif; font-size: 3em; font-weight: bold; text-shadow: 2px 2px 5px rgba(255, 252, 252, 0.993);">
+            Amortización y Capitalización
+        </h1>
+        <img src="img/3.jpg" alt="Imagen Representativa" style="width: 100%; height: 80%; margin: 20px 0;">
+       
+    </header>
+    
+    
+
+    <nav>
+        <a href="#amortizacion">Amortización</a>
+        <a href="#capitalizacion">Capitalización</a>
+        <a href="#video_amortizacion">Video Amortizacion</a>
+        <a href="#video_capitalizacion">Videos Capitalizacion</a>
+        <a href="#infograria">Inforgrafia</a>
+    </nav>
+
+        
+    <section id="amortizacion">
+        
+  <header style="background: linear-gradient(90deg, #28a745, #218838); padding: 40px 0; text-align: center; color: white;">
+            <h2 style="font-family: 'Arial', sans-serif; font-size: 2.5em; font-weight: bold; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); margin: 0;">
+                ¿Qué es la Amortización?
+            </h2>
+        </header>
+      
+
+        <div align="center">
+            <img src="img/1.png" alt="Amortizacion"
+                style="max-width: 100%; height: auto; border: 2px solid #000; border-radius: 10px;">
+        </div>
+        <p>La amortización es el proceso mediante el cual una deuda se paga gradualmente a través de pagos periódicos
+            que cubren tanto el interés como el capital. Se utiliza principalmente en préstamos y créditos. Este método
+            permite a los deudores distribuir sus pagos a lo largo del tiempo de manera manejable.</p>
+
+        <div class="example">
+            <strong>Ejemplo:</strong>
+            <p>Si una persona obtiene un préstamo de $100,000 a 5 años con una tasa de interés del 6%, los pagos
+                mensuales incluyen parte del capital y del interés, disminuyendo gradualmente la deuda.</p>
+        </div>
+
+        <h3>Ecuación de Amortización:</h3>
+        <p>
+            <code>A = (P × r(1+r)^n) / ((1+r)^n - 1)</code><br>
+            Donde:<br>
+            - <strong>A</strong> es el pago periódico.<br>
+            - <strong>P</strong> es el monto del préstamo.<br>
+            - <strong>r</strong> es la tasa de interés.<br>
+            - <strong>n</strong> es el número total de pagos.
+        </p>
+
+
+        <body>
+
+
+            <h1>Tabla de Amortización</h1>
+            <p>Ejemplo: Préstamo de $100,000 a 5 años con una tasa de interés del 6%</p>
+
+
+            <section>
+                <h2>Detalle de la Amortización Mensual</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mes</th>
+                            <th>Pago Total</th>
+                            <th>Intereses</th>
+                            <th>Principal</th>
+                            <th>Balance Restante</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Aquí comienza la tabla con los datos calculados -->
+                        <tr>
+                            <td>1</td>
+                            <td>$1,933.28</td>
+                            <td>$500.00</td>
+                            <td>$1,433.28</td>
+                            <td>$98,566.72</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$1,933.28</td>
+                            <td>$492.83</td>
+                            <td>$1,440.45</td>
+                            <td>$97,126.27</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$1,933.28</td>
+                            <td>$485.63</td>
+                            <td>$1,447.65</td>
+                            <td>$95,678.61</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>$1,933.28</td>
+                            <td>$478.39</td>
+                            <td>$1,454.89</td>
+                            <td>$94,223.72</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>$1,933.28</td>
+                            <td>$471.12</td>
+                            <td>$1,462.16</td>
+                            <td>$92,761.56</td>
+                        </tr>
+                        <!-- Continua hasta el último mes (60 pagos en total) -->
+                    </tbody>
+                </table>
+            </section>
+
+
+            <!DOCTYPE html>
+            <html lang="es">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Video de Ejemplo</title>
+                <style>
+                    /* Estilo para centrar el título */
+                    h1 {
+                        text-align: center;
+                        font-family: 'Arial', sans-serif;
+                        font-size: 2.5em;
+                        margin-bottom: 20px;
+                        color: #333;
+                    }
+            
+                    /* Estilo para el contenedor del video */
+                    .video-container {
+                        display: flex;
+                        justify-content: center;
+                        margin: 20px auto;
+                        max-width: 800px;
+                        border: 2px solid #ddd;
+                        padding: 10px;
+                        background-color: #f9f9f9;
+                        border-radius: 8px;
+                    }
+            
+                    iframe {
+                        width: 100%;
+                        height: 450px;
+                        border-radius: 4px;
+                    }
+                </style>
+            </head>
+            <body>
+            
+                <h1>Otro Ejemplo de Amortización</h1>
+                <div class="video-container" id="video_amortizacion">
+                    <iframe 
+                        src="https://www.youtube.com/embed/DgxqgeqILzY" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                
+            </body>
+            </html>
+                
+          
+        <header style="background: linear-gradient(90deg, #28a745, #218838); padding: 40px 0; text-align: center; color: white;">
+        <h2 style="font-family: 'Arial', sans-serif; font-size: 2.5em; font-weight: bold; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); margin: 0;">
+            ¿Qué es la Capitalización?
+        </h2>
+    </header>
+
+    <section id="capitalizacion">
+        
+                
+    </section>
+
+    
+
+
+
+        <div align="center">
+            <img src="img/2.jpg" alt="Capitalizacion"
+                style="max-width: 60%; height: auto; border: 2px solid #000; border-radius: 10px;">
+        </div>
+        <p>La capitalización es el proceso de reinvertir los intereses ganados para que generen aún más intereses. En
+            lugar de retirar los intereses ganados, se suman al capital original, aumentando el valor total invertido y,
+            en consecuencia, los intereses futuros.</p>
+
+            
+
+        <style>
+            h1 {
+                color: #2c3e50;
+            }
+
+            .formula {
+                background-color: #f4f4f4;
+                border-left: 4px solid #3498db;
+                padding: 10px;
+                margin: 20px 0;
+            }
+
+            .highlight {
+                color: #e74c3c;
+                font-weight: bold;
+            }
+        </style>
+        </head>
+
+        <body>
+
+            <h1>Ejemplo de Capitalización de Intereses</h1>
+
+            <p>Si inviertes <span class="highlight">$10,000</span> a una tasa de interés del <span
+                    class="highlight">5%</span> anual y decides capitalizar los intereses, al final del primer año
+                tendrás <span class="highlight">$10,500</span>.</p>
+
+            <p>En lugar de retirar los <span class="highlight">$500</span> de interés, los sumas al capital, y el
+                segundo año recibirás intereses sobre <span class="highlight">$10,500</span>.</p>
+
+            <h2>Ecuación de Capitalización:</h2>
+            <div class="formula">
+                A = P(1 + r/n)^(nt)
+            </div>
+            <p>Donde:</p>
+            <ul>
+                <li><strong>A</strong> es el monto final.</li>
+                <li><strong>P</strong> es el monto inicial.</li>
+                <li><strong>r</strong> es la tasa de interés anual.</li>
+                <li><strong>n</strong> es el número de veces que se capitaliza el interés por año.</li>
+                <li><strong>t</strong> es el número de años.</li>
+            </ul>
+
+            <h3>Cálculo:</h3>
+            <p>Para el primer año:</p>
+            <div class="formula">
+                A = 10,000(1 + 0.05/1)^(1*1) = 10,000(1 + 0.05)^1 = 10,000 * 1.05 = <span
+                    class="highlight">10,500</span>
+            </div>
+
+            <p>Para el segundo año:</p>
+            <div class="formula">
+                A = 10,500(1 + 0.05/1)^(1*1) = 10,500(1 + 0.05)^1 = 10,500 * 1.05 = <span
+                    class="highlight">11,025</span>
+            </div>
+
+                    
+            <style>
+        h1 {
+            text-align: center; /* Centra el texto */
+            font-family: 'Arial', sans-serif; /* Cambia la fuente */
+            font-size: 2.5em; /* Tamaño del texto */
+            margin-bottom: 20px; /* Espacio debajo del título */
+            color: #333; /* Color del texto */
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center; 
+            margin: 0 auto; 
+            max-width: 800px; 
+            border: 2px solid #ddd; 
+            padding: 10px; 
+            background-color: #f9f9f9; 
+            border-radius: 8px; 
+        }
+
+        iframe {
+            width: 100%; 
+            height: 450px; 
+            border-radius: 4px; 
+        }
+    </style>
+        </head>
+        <body>
+        
+            <h1>Otro Ejemplo de Capitalización</h1>
+        
+    <div class="video-container" id="video_capitalizacion">
+        <iframe 
+            src="https://www.youtube.com/embed/UxWlfQbCc9g" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+        
+        
+                    <style>
+                        h1 {
+                            text-align: center;
+                            font-family: 'Arial', sans-serif;
+                            font-size: 3em;
+                            font-weight: bold;
+                            color: #333;
+                            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+                            margin-bottom: 20px;
+                        }
+                
+                        .infografia-container {
+                            position: relative;
+                            width: 80%; 
+                            max-width: 1000px;
+                            margin: 0 auto; 
+                            overflow: hidden;
+                            border: 2px solid #ddd;
+                        }
+                
+
+                    </style>
+                </head>
+                <body>
+
+           <header style="background: linear-gradient(90deg, #28a745, #218838); padding: 40px 0; text-align: center; color: white;">
+            <h2 style="font-family: 'Arial', sans-serif; font-size: 2.5em; font-weight: bold; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); margin: 0;">
+                INFOGRAFIA
+            </h2>
+        </header>
+                    
+                   
+                
+                    <div class="infografia-container" id="infograria">
+                        <img src="img/capitalizacion.jpg" >
+                    </div>
+                
+                </section>          
+         
+
+                <style>
+                    footer {
+                        background-color: #333;
+                        color: white;
+                        text-align: center;
+                        padding: 40px 0;
+                    }
+                    .social-icons {
+                        margin-bottom: 15px;
+                    }
+                    .social-icons a {
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 15px;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        color: white;
+                        font-size: 1.5em;
+                        text-decoration: none;
+                        transition: transform 0.3s, box-shadow 0.3s;
+                    }
+                    .social-icons a span {
+                        display: none; /* Ocultar el texto al lado del icono */
+                    }
+                    /* Colores específicos para cada red social */
+                    .social-icons a.facebook {
+                        background-color: #3b5998;
+                    }
+                    .social-icons a.twitter {
+                        background-color: #1da1f2;
+                    }
+                    .social-icons a.instagram {
+                        background-color: #e4405f;
+                    }
+                    /* Efecto de brillo al pasar el mouse */
+                    .social-icons a:hover {
+                        transform: scale(1.1);
+                        box-shadow: 0 0 10px rgba(231, 228, 228, 0.6);
+                    }
+                    .footer-text {
+                        margin: 10px auto;
+                        max-width: 800px;
+                        text-align: center;
+                        font-size: 0.9em;
+                    }
+                    .footer-links a {
+                        color: white;
+                        text-decoration: underline;
+                        transition: color 0.3s;
+                    }
+                    .footer-links a:hover {
+                        color: #fdeeee;
+                    }
+                </style>
+                <!-- Fuente de iconos de Font Awesome -->
+                <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+            </head>
+            <body>
+            
+                <footer>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <p class="footer-text">&copy; 2024 Amortización y Capitalización. Todos los derechos reservados.</p>
+                    <div class="footer-links">
+                        <a href="#">Política de privacidad</a> |
+                        <a href="#">Términos de uso</a>
+                    </div>
+                </footer>
+
+</html>
